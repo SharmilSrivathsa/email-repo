@@ -1,12 +1,2 @@
+{"email": "22f3001512@ds.study.iitm.ac.in"}
 
-echo "# email-repo" >> README.md   # Create a README file (optional but good practice)
-git init                           # Initialize a new Git repository
-git add README.md                  # Stage the README file
-git commit -m "first commit"       # Commit the README file to the repository
-git branch -M main                 # Rename the default branch to 'main'
-git remote add origin https://github.com/SharmilSrivathsa/email-repo.git  # Add the remote GitHub repository URL
-git push -u origin main            # Push the initial commit to GitHub
-echo '{"email": "22f3001512@ds.study.iitm.ac.in"}' > email.json  # Create the JSON file with content
-git add email.json                # Stage the email.json file
-git commit -m "Add email.json with specified email"  # Commit the file
-git push                          # Push the changes to GitHub
